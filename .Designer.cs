@@ -1,7 +1,7 @@
 ﻿
 namespace FightingDice
 {
-    partial class Form1
+    partial class TestForm
     {
         /// <summary>
         /// Required designer variable.
