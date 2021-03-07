@@ -35,7 +35,7 @@ namespace FightingDice
             //Calls roll method (dice count, number of rolls)
             //Returns int array of roll values
             DiceTools rollDice = new DiceTools();
-            int[] roll = rollDice.roll_dice(6, intDiceCount);
+            int[] roll = rollDice.RollDice(6, intDiceCount);
 
             //outputs each roll to a new line in multiline text box
             foreach(int item in roll) 
@@ -43,7 +43,7 @@ namespace FightingDice
                 textBox_d6.Text += item.ToString() + Environment.NewLine;
             }
 
-            textBox_d6Avg.Text = rollDice.roll_average(roll).ToString();
+            textBox_d6Avg.Text = rollDice.RollAverage(roll).ToString();
 
         }
         private void d8_Click(object sender, EventArgs e)
@@ -57,7 +57,7 @@ namespace FightingDice
             //Calls roll method (dice count, number of rolls)
             //Returns int array of roll values
             DiceTools rollDice = new DiceTools();
-            int[] roll = rollDice.roll_dice(8, intDiceCount);
+            int[] roll = rollDice.RollDice(8, intDiceCount);
 
             //outputs each roll to a new line in multiline text box
             foreach (int item in roll)
@@ -65,7 +65,7 @@ namespace FightingDice
                 textBox_d8.Text += item.ToString() + Environment.NewLine;
             }
 
-            textBox_d8Avg.Text = rollDice.roll_average(roll).ToString();
+            textBox_d8Avg.Text = rollDice.RollAverage(roll).ToString();
 
         }
         private void d10_Click_1(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace FightingDice
             //Calls roll method (dice count, number of rolls)
             //Returns int array of roll values
             DiceTools rollDice = new DiceTools();
-            int[] roll = rollDice.roll_dice(10, intDiceCount);
+            int[] roll = rollDice.RollDice(10, intDiceCount);
 
             //outputs each roll to a new line in multiline text box
             foreach (int item in roll)
@@ -87,7 +87,7 @@ namespace FightingDice
                 textBox_d10.Text += item.ToString() + Environment.NewLine;
             }
 
-            textBox_d10Avg.Text = rollDice.roll_average(roll).ToString();
+            textBox_d10Avg.Text = rollDice.RollAverage(roll).ToString();
 
         }
         private void d12_Click(object sender, EventArgs e)
@@ -101,7 +101,7 @@ namespace FightingDice
             //Calls roll method (dice count, number of rolls)
             //Returns int array of roll values
             DiceTools rollDice = new DiceTools();
-            int[] roll = rollDice.roll_dice(12, intDiceCount);
+            int[] roll = rollDice.RollDice(12, intDiceCount);
 
             //outputs each roll to a new line in multiline text box
             foreach (int item in roll)
@@ -109,7 +109,7 @@ namespace FightingDice
                 textBox_d12.Text += item.ToString() + Environment.NewLine;
             }
 
-            textBox_d12Avg.Text = rollDice.roll_average(roll).ToString();
+            textBox_d12Avg.Text = rollDice.RollAverage(roll).ToString();
 
         }
         private void d20_Click(object sender, EventArgs e)
@@ -123,7 +123,7 @@ namespace FightingDice
             //Calls roll method (dice count, number of rolls)
             //Returns int array of roll values
             DiceTools rollDice = new DiceTools();
-            int[] roll = rollDice.roll_dice(20, intDiceCount);
+            int[] roll = rollDice.RollDice(20, intDiceCount);
 
             //outputs each roll to a new line in multiline text box
             foreach (int item in roll)
@@ -131,7 +131,7 @@ namespace FightingDice
                 textBox_d20.Text += item.ToString() + Environment.NewLine;
             }
 
-            textBox_d20Avg.Text = rollDice.roll_average(roll).ToString();
+            textBox_d20Avg.Text = rollDice.RollAverage(roll).ToString();
 
         }
         private void d100_Click(object sender, EventArgs e)
@@ -145,7 +145,7 @@ namespace FightingDice
             //Calls roll method (dice count, number of rolls)
             //Returns int array of roll values
             DiceTools rollDice = new DiceTools();
-            int[] roll = rollDice.roll_dice(100, intDiceCount);
+            int[] roll = rollDice.RollDice(100, intDiceCount);
 
             //outputs each roll to a new line in multiline text box
             foreach (int item in roll)
@@ -153,7 +153,7 @@ namespace FightingDice
                 textBox_d100.Text += item.ToString() + Environment.NewLine;
             }
 
-            textBox_d100Avg.Text = rollDice.roll_average(roll).ToString();
+            textBox_d100Avg.Text = rollDice.RollAverage(roll).ToString();
 
         }
 

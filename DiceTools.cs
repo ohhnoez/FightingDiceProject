@@ -8,7 +8,7 @@ namespace FightingDice
 {
     public class DiceTools
     {
-        public int[] roll_dice(int diceSides, int count)
+        public int[] RollDice(int diceSides, int count)
         {
             int[] rand_num = new int[count];
 
@@ -21,15 +21,15 @@ namespace FightingDice
             return rand_num;
         }
 
-        public int roll_average(int[] rolls)
+        public int RollAverage(int[] rolls)
         {
             return rolls.Sum() / rolls.Length;
         }
 
         public int roll_adv(int diceSides)
         {
-            int rollA = roll_dice(diceSides, 1)[0];
-            int rollB = roll_dice(diceSides, 1)[0];
+            int rollA = RollDice(diceSides, 1)[0];
+            int rollB = RollDice(diceSides, 1)[0];
             if (rollB >= rollA)
                 return rollB;
             else
@@ -37,10 +37,10 @@ namespace FightingDice
 
         }
 
-        public int roll_dis(int diceSides)
+        public int RollDis(int diceSides)
         {
-            int rollA = roll_dice(diceSides, 1)[0];
-            int rollB = roll_dice(diceSides, 1)[0];
+            int rollA = RollDice(diceSides, 1)[0];
+            int rollB = RollDice(diceSides, 1)[0];
             if (rollB <= rollA)
                 return rollB;
             else

@@ -400,11 +400,11 @@ namespace FightingDice
             this.textBox_d100Avg.Size = new System.Drawing.Size(60, 40);
             this.textBox_d100Avg.TabIndex = 48;
             // 
-            // Form1
+            // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 650);
+            this.ClientSize = new System.Drawing.Size(928, 650);
             this.Controls.Add(this.textBox_d100Avg);
             this.Controls.Add(this.textBox_d20Avg);
             this.Controls.Add(this.textBox_d12Avg);
@@ -437,7 +437,7 @@ namespace FightingDice
             this.Controls.Add(this.label1);
             this.Controls.Add(this.d6);
             this.Controls.Add(this.Exit);
-            this.Name = "Form1";
+            this.Name = "TestForm";
             this.Text = "Fighting Dice";
             this.ResumeLayout(false);
             this.PerformLayout();
