@@ -75,7 +75,7 @@ namespace FightingDice
             foreach (int item in roll)
             {
                 //Wound Calc
-                if (item >= saveVal)
+                if (item < saveVal)
                 {
                     woundResult += 1;
                 }
@@ -88,6 +88,41 @@ namespace FightingDice
             return woundResult;
         }
 
+        public int WoundTable(int atk, int def)
+        {
+            int tVal=0;
+
+            if (atk == def)
+            { tVal = 4; }
+            else if (atk >= def*2)
+            { tVal = 2; }
+            else if (atk <= def/2)
+            { tVal = 6; }
+            else if (atk > def)
+            { tVal = 3; }
+            else if (atk < def)
+            { tVal = 5; }
+
+            return tVal;
+        }
+
+        public int WSBSTable(int wsbs)
+        {
+            int sVal = 0;
+
+            if (wsbs == 6)
+            { sVal = 2; }
+            else if (wsbs == 5)
+            { sVal = 3; }
+            else if (wsbs == 4)
+            { sVal = 4; }
+            else if (wsbs == 3)
+            { sVal = 5; }
+            else if (wsbs == 2)
+            { sVal = 6; }
+
+            return sVal;
+        }
 
 
     }
