@@ -11,7 +11,7 @@ namespace FightingDice
         // public int attack(int[] roll, int attackVal)
         // input: int[] roll ... int array from rolls in dice tools.
         // input: int attackVal ... int from ws/bs from statline table.
-        // output: int counting number of rolls that pass ws/bs check.
+        // output: int counting number of rolls that pass ws/bs check. 
         public int Attack(int[] roll, int attackVal)
         {
             int attackReuslt = 0;
@@ -66,7 +66,7 @@ namespace FightingDice
         // input: int[] roll ... int array from rolls in dice tools.
         // input: int saveVal ... int from save from statline table.
         // input: int unSavable ... CriticalWound = values out of Combat.Wound array [1]
-        // output: int counting number of rolls that pass save check.
+        // output: int counting number of rolls that pass save check. 
         public int Defend(int [] roll, int saveVal, int unSavable)
         {
             int woundResult = 0;

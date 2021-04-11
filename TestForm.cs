@@ -54,12 +54,12 @@ namespace FightingDice
             //Parses input box and coverts it to int
             int.TryParse(txt_DiceCount.Text, out int intDiceCount);
 
-            //Calls roll method (dice count, number of rolls)
-            //Returns int array of roll values
+            //Calls roll method (dice count, number of rolls) 
+            //Returns int array of roll values 
             DiceTools rollDice = new DiceTools();
             int[] roll = rollDice.RollDice(8, intDiceCount);
 
-            //outputs each roll to a new line in multiline text box
+            //outputs each roll to a new line in multiline text box 
             foreach (int item in roll)
             {
                 textBox_d8.Text += item.ToString() + Environment.NewLine;

@@ -11,7 +11,7 @@ namespace FightingDice
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Clean up any resources being used. 
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -90,6 +90,8 @@ namespace FightingDice
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.GBResults = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TextBoxDefLeft = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -100,8 +102,6 @@ namespace FightingDice
             this.ButtonDefendSH = new System.Windows.Forms.Button();
             this.ButtonResultsSH = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.TextBoxDefLeft = new System.Windows.Forms.TextBox();
             this.GBAttack.SuspendLayout();
             this.GBDefend.SuspendLayout();
             this.GBResults.SuspendLayout();
@@ -440,7 +440,7 @@ namespace FightingDice
             // 
             // testCombat
             // 
-            this.testCombat.Location = new System.Drawing.Point(441, 541);
+            this.testCombat.Location = new System.Drawing.Point(450, 541);
             this.testCombat.Name = "testCombat";
             this.testCombat.Size = new System.Drawing.Size(192, 20);
             this.testCombat.TabIndex = 49;
@@ -699,6 +699,25 @@ namespace FightingDice
             this.GBResults.TabStop = false;
             this.GBResults.Text = "Results";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(244, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 13);
+            this.label1.TabIndex = 70;
+            this.label1.Text = "Enemies Left";
+            // 
+            // TextBoxDefLeft
+            // 
+            this.TextBoxDefLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxDefLeft.Location = new System.Drawing.Point(247, 41);
+            this.TextBoxDefLeft.Multiline = true;
+            this.TextBoxDefLeft.Name = "TextBoxDefLeft";
+            this.TextBoxDefLeft.ReadOnly = true;
+            this.TextBoxDefLeft.Size = new System.Drawing.Size(71, 27);
+            this.TextBoxDefLeft.TabIndex = 69;
+            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -758,7 +777,7 @@ namespace FightingDice
             // 
             // ButtonAttackSH
             // 
-            this.ButtonAttackSH.Location = new System.Drawing.Point(820, 20);
+            this.ButtonAttackSH.Location = new System.Drawing.Point(820, 16);
             this.ButtonAttackSH.Name = "ButtonAttackSH";
             this.ButtonAttackSH.Size = new System.Drawing.Size(72, 37);
             this.ButtonAttackSH.TabIndex = 60;
@@ -824,25 +843,6 @@ namespace FightingDice
             this.groupBox1.TabIndex = 63;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dice Roll Simulator";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(244, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 13);
-            this.label1.TabIndex = 70;
-            this.label1.Text = "Enemies Left";
-            // 
-            // TextBoxDefLeft
-            // 
-            this.TextBoxDefLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxDefLeft.Location = new System.Drawing.Point(247, 41);
-            this.TextBoxDefLeft.Multiline = true;
-            this.TextBoxDefLeft.Name = "TextBoxDefLeft";
-            this.TextBoxDefLeft.ReadOnly = true;
-            this.TextBoxDefLeft.Size = new System.Drawing.Size(71, 27);
-            this.TextBoxDefLeft.TabIndex = 69;
             // 
             // TestForm
             // 
