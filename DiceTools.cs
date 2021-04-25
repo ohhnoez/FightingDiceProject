@@ -22,6 +22,7 @@ namespace FightingDice
                 rand_num[i] = rnd.Next(1, diceSides + 1);
             }
             return rand_num;
+            
         }
 
         //Dice Roll Average
