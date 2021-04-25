@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Fighting Dice army information storage-->
+<ArmyLists>
+  <Army id="Space Marines">
+    <Name>Space Marines</Name>
+    <Strength>4</Strength>
+    <Toughness>4</Toughness>
+    <WSBS>3</WSBS>
+    <Armor>4</Armor>
+    <Attacks>2</Attacks>
+  </Army>
+  <Army id="Sisters">
+    <Name>Sisters</Name>
+    <Strength>3</Strength>
+    <Toughness>4</Toughness>
+    <WSBS>4</WSBS>
+    <Armor>3</Armor>
+    <Attacks>3</Attacks>
+  </Army>
+  <Army id="Tau">
+    <Name>Tau</Name>
+    <Strength>3</Strength>
+    <Toughness>3</Toughness>
+    <WSBS>5</WSBS>
+    <Armor>4</Armor>
+    <Attacks>2</Attacks>
+  </Army>
+  <Army id="Necron">
+    <Name>Necron</Name>
+    <Strength>4</Strength>
+    <Toughness>4</Toughness>
+    <WSBS>4</WSBS>
+    <Armor>3</Armor>
+    <Attacks>3</Attacks>
+  </Army>
+  <Army id="AdMech">
+    <Name>AdMech</Name>
+    <Strength>3</Strength>
+    <Toughness>4</Toughness>
+    <WSBS>5</WSBS>
+    <Armor>3</Armor>
+    <Attacks>3</Attacks>
+  </Army>
+</ArmyLists>

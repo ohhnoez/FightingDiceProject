@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5fb39lrIdtR3K8sCuBmIon29DFDYUggj9CjoIemO4EiZLEKcSDxq/OAAIKXclx7NPlmwUgUXRfugCLxGfecXyg==",
+  "success": true,
+  "projectFilePath": "D:\\OneDrive\\School\\Courses\\2021 Term 1\\SDEV-435\\Source\\DiceLibrary\\DiceLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ohhno\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ohhno\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

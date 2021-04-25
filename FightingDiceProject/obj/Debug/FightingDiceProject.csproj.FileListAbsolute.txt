@@ -1,0 +1,11 @@
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\bin\Debug\FightingDice.exe.config
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\bin\Debug\FightingDice.exe
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\bin\Debug\FightingDice.pdb
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDiceProject.csprojAssemblyReference.cache
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDice.Properties.Resources.resources
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDiceProject.csproj.GenerateResource.cache
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDiceProject.csproj.CoreCompileInputs.cache
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDice.exe
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDice.pdb
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDice.MainForm.resources
+D:\OneDrive\School\Courses\2021 Term 1\SDEV-435\Source\FightingDiceProject\obj\Debug\FightingDice.TestForm.resources
